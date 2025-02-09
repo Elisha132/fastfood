@@ -48,12 +48,6 @@ npm run build
 OR
 API Integration
 
-If using an API, update useApi in OrderSummary.vue:
-
-export default { data() { return { useApi: true, // Set to false for local data }; }, };
-
-Ensure your API is running and replace https://your-api.com/api/orders with your actual API endpoint.
-
 Project Structure
 
 vue-fastfood-order/ │── src/ │ ├── assets/ # Static assets (images, styles, etc.) │ ├── components/ # Reusable Vue components │ ├── views/ # Main pages (Home, Order Summary, Payment, etc.) │ ├── App.vue # Root component │ ├── main.js # Application entry point │── public/ # Static files (favicon, index.html, etc.) │── package.json # Dependencies and scripts │── README.md # Documentation
