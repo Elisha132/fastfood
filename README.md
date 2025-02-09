@@ -28,25 +28,17 @@ Clone the repository
 
 git clone https://github.com/your-repository/vue-fastfood-order.git cd fastfood
 
+cd ..\fastfood
+
 Install dependencies
 
 npm install
 
-OR
-yarn install
-
 Run the development server
 
-ionic serve
+npm run ionic:serve
 
 The application should now be running at http://localhost:8100/
-
-Build for production
-
-npm run build
-
-OR
-API Integration
 
 Project Structure
 
